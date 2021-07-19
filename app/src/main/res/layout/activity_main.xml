@@ -10,15 +10,17 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:gravity="center|top"
         android:orientation="vertical"
-        android:gravity="center|top">
+        tools:layout_editor_absoluteX="-16dp"
+        tools:layout_editor_absoluteY="92dp">
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="30sp"
+            android:text="@string/escolha_a_op_o_desejada"
             android:textColor="@color/black"
-            android:text="@string/escolha_a_op_o_desejada" />
+            android:textSize="30sp" />
 
         <Button
             android:id="@+id/button_troca_de_chiclete"
@@ -31,6 +33,19 @@
             android:textSize="20sp"
             android:textStyle="italic"
             tools:ignore="MissingConstraints" />
+
+        <Button
+            android:id="@+id/button_par_ou_impar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40sp"
+            android:background="@drawable/botaovermelho"
+            android:text= "Par ou impar"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="italic"
+            tools:ignore="MissingConstraints" />
+
 
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

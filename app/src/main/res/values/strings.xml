@@ -10,6 +10,10 @@
     <string name="troca_de_chiclete">Troca de chiclete</string>
     <string name="troca_de_chicletes">TROCA DE CHICLETE</string>
     <string name="escolha_a_op_o_desejada">Escolha a opção desejada</string>
+    <string name="titulo_par_impar">Esse aplicativo explica o que é número par ou número impar.</string>
+    <string name="digite_apenas_n_meros_inteiros">digite apenas números inteiros</string>
+    <string name="aperte_aqui">aperte aqui</string>
+    <string name="resultado">Resultado</string>
 
 
 </resources>
