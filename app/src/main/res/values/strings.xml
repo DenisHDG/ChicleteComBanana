@@ -1,0 +1,13 @@
+<resources>
+    <!--Main activity -->
+    <string name="app_name">Chiclete com Banana</string>
+    <string name="bibig">Big Big</string>
+    <string name="name_tridente">Tridente</string>
+
+
+    <!--Tela de Splash  -->
+    <string name="tridente">Tridente</string>
+    <string name="troca_de_chiclete">Troca de chiclete</string>
+
+
+</resources>
