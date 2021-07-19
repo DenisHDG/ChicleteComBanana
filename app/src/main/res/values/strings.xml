@@ -8,6 +8,8 @@
     <!--Tela de Splash  -->
     <string name="tridente">Tridente</string>
     <string name="troca_de_chiclete">Troca de chiclete</string>
+    <string name="troca_de_chicletes">TROCA DE CHICLETE</string>
+    <string name="escolha_a_op_o_desejada">Escolha a opção desejada</string>
 
 
 </resources>

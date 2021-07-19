@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.ChicleteComBanana">
-        <activity android:name=".MainActivity"></activity>
+        <activity android:name=".TrocaDeChiclete"></activity>
+        <activity android:name=".MainActivity" />
         <activity android:name=".SplashDevMedia">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

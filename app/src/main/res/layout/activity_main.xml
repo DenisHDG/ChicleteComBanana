@@ -4,41 +4,33 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:layout_margin="14dp"
     tools:context=".MainActivity">
 
-    <TextView
-        android:id="@+id/textView_name_chiclete"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        android:text="@string/bibig"
-        android:textSize="40sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.714" />
-
-    <Button
-        android:id="@+id/button_change_chiclete"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/troca_de_chiclete"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView"
-        tools:ignore="MissingConstraints,UnknownId" />
-
-    <ImageView
-        android:id="@+id/imageView_chiclete"
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center|top">
 
-        app:srcCompat="@drawable/bigbig"
-        tools:ignore="MissingConstraints" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:textColor="@color/black"
+            android:text="@string/escolha_a_op_o_desejada" />
 
+        <Button
+            android:id="@+id/button_troca_de_chiclete"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/borda_botton"
+            android:text="@string/troca_de_chicletes"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="italic"
+            tools:ignore="MissingConstraints" />
 
+    </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
