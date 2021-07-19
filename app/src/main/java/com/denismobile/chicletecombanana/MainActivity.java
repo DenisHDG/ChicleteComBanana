@@ -17,7 +17,6 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
         Button button_troca_de_chiclete = findViewById(R.id.button_troca_de_chiclete);
         button_troca_de_chiclete.setOnClickListener(view ->{
             Intent i = new Intent(MainActivity.this,
@@ -26,6 +25,6 @@ public class MainActivity extends AppCompatActivity {
         });
 
         // todo novo botão
-        Button button_troca_de_chiclete =
+        //Button button_troca_de_chiclete =
     }
 }
