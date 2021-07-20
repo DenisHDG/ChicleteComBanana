@@ -10,11 +10,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ChicleteComBanana"
         android:windowSoftInputMode="adjustPan">
+        <activity android:name=".MostrandoIdaeEDias"></activity>
         <activity
             android:name=".DestinguirParOuImpar"
-            android:windowSoftInputMode="adjustPan">
-
-        </activity>
+            android:windowSoftInputMode="adjustPan"></activity>
         <activity
             android:name=".TrocaDeChiclete"
             android:windowSoftInputMode="adjustPan" />

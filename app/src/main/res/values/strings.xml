@@ -14,6 +14,13 @@
     <string name="digite_apenas_n_meros_inteiros">digite apenas números inteiros</string>
     <string name="aperte_aqui">aperte aqui</string>
     <string name="resultado">Resultado</string>
+    <string name="descricao_nascimento">Coloque sua data de nascimento para calcularmos sua idade,e quantos dias vc já viveu.</string>
+    <string name="clique_aqui">Clique aqui</string>
+    <string name="dias">Dias</string>
+    <string name="idade">Idade</string>
+    <string name="data">Data</string>
+    <string name="idade_dias">idade_dias</string>
+    <string name="par_ou_impar">Par ou impar</string>
 
 
 </resources>

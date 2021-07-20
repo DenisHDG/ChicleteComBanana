@@ -32,5 +32,13 @@ public class MainActivity extends AppCompatActivity {
                     DestinguirParOuImpar.class);
             startActivity(i);
         });
+
+
+        Button button_idade_e_dias = findViewById(R.id.button_idade_e_dias);
+        button_idade_e_dias.setOnClickListener(view -> {
+            Intent i = new Intent(MainActivity.this,
+                    MostrandoIdaeEDias.class);
+            startActivity(i);
+        });
     }
 }
