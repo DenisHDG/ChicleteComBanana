@@ -40,5 +40,11 @@ public class MainActivity extends AppCompatActivity {
                     MostrandoIdaeEDias.class);
             startActivity(i);
         });
+        Button button_elicao = findViewById(R.id.button_elicao);
+        button_elicao.setOnClickListener(view -> {
+            Intent i = new Intent(MainActivity.this,
+                    Eleicao.class);
+            startActivity(i);
+        });
     }
 }
