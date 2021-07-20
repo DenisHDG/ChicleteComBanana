@@ -1,6 +1,6 @@
 <resources>
     <!--Main activity -->
-    <string name="app_name">Chiclete com Banana</string>
+    <string name="app_name">Aleatoriando</string>
     <string name="bibig">Big Big</string>
     <string name="name_tridente">Tridente</string>
 
@@ -10,6 +10,17 @@
     <string name="troca_de_chiclete">Troca de chiclete</string>
     <string name="troca_de_chicletes">TROCA DE CHICLETE</string>
     <string name="escolha_a_op_o_desejada">Escolha a opção desejada</string>
+    <string name="titulo_par_impar">Esse aplicativo explica o que é número par ou número impar.</string>
+    <string name="digite_apenas_n_meros_inteiros">digite apenas números inteiros</string>
+    <string name="aperte_aqui">aperte aqui</string>
+    <string name="resultado">Resultado</string>
+    <string name="descricao_nascimento">Coloque sua data de nascimento para calcularmos sua idade,e quantos dias vc já viveu.</string>
+    <string name="clique_aqui">Clique aqui</string>
+    <string name="dias">Dias</string>
+    <string name="idade">Idade</string>
+    <string name="data">Data</string>
+    <string name="idade_dias">idade_dias</string>
+    <string name="par_ou_impar">Par ou impar</string>
 
 
 </resources>

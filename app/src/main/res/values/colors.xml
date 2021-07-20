@@ -8,4 +8,10 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="red">#FF0000</color>
+    <color name="orange">#FF6600</color>
+    <color name="blue_200">#000099</color>
+    <color name="azul">#003399</color>
+    <color name="gray">#666666</color>
+    <color name="roxo">#9900CC</color>
+    <color name="roxa">#330066</color>
 </resources>

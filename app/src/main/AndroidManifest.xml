@@ -8,10 +8,21 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.ChicleteComBanana">
-        <activity android:name=".TrocaDeChiclete"></activity>
-        <activity android:name=".MainActivity" />
-        <activity android:name=".SplashDevMedia">
+        android:theme="@style/Theme.ChicleteComBanana"
+        android:windowSoftInputMode="adjustPan">
+        <activity android:name=".MostrandoIdaeEDias"></activity>
+        <activity
+            android:name=".DestinguirParOuImpar"
+            android:windowSoftInputMode="adjustPan"></activity>
+        <activity
+            android:name=".TrocaDeChiclete"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".MainActivity"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".SplashDevMedia"
+            android:windowSoftInputMode="adjustPan">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
