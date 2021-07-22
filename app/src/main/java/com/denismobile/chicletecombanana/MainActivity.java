@@ -5,10 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
-import android.view.View;
 import android.widget.Button;
-import android.widget.ImageView;
-import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -37,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
         Button button_idade_e_dias = findViewById(R.id.button_idade_e_dias);
         button_idade_e_dias.setOnClickListener(view -> {
             Intent i = new Intent(MainActivity.this,
-                    MostrandoIdaeEDias.class);
+                    ActivityIdadeDiasMesesAnos.class);
             startActivity(i);
         });
         Button button_elicao = findViewById(R.id.button_elicao);
@@ -46,5 +43,12 @@ public class MainActivity extends AppCompatActivity {
                     Eleicao.class);
             startActivity(i);
         });
+        Button button_calcular = findViewById(R.id.button_calcular);
+        button_calcular.setOnClickListener(view -> {
+            Intent i = new Intent(MainActivity.this,
+                    ContasBasicasECalculadora.class);
+            startActivity(i);
+        });
+
     }
 }

@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ContasBasicasECalculadora">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center|top"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="14dp"
+            android:text="@string/contas_b_sicas"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/textViewNumero1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                tools:layout_editor_absoluteX="140dp"
+                tools:layout_editor_absoluteY="19dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="14dp"
+                android:text="@string/SinalDeVezes"/>
+            <EditText
+                android:id="@+id/textViewNumero2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                tools:layout_editor_absoluteX="140dp"
+                tools:layout_editor_absoluteY="19dp" />
+            <Button
+                android:id="@+id/button_multiplicacao"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/BotaoVezes"/>
+            <TextView
+                android:id="@+id/textViewResultadoMultiplicacao"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="14dp"
+                android:text="@string/ResultadoDeVezes"/>
+        </LinearLayout>
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_gravity="center"-->
+<!--            android:layout_marginTop="50dp"-->
+<!--            android:gravity="center"-->
+<!--            android:orientation="horizontal">-->
+
+<!--            <EditText-->
+<!--                android:id="@+id/textViewNumero3"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text=""-->
+<!--                tools:layout_editor_absoluteX="140dp"-->
+<!--                tools:layout_editor_absoluteY="19dp" />-->
+
+<!--            <TextView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginLeft="14dp"-->
+<!--                android:text="@string/Dvivisao"/>-->
+
+<!--            <EditText-->
+<!--                android:id="@+id/textViewNumero4"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text=""-->
+<!--                tools:layout_editor_absoluteX="140dp"-->
+<!--                tools:layout_editor_absoluteY="19dp" />-->
+<!--            <Button-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="@string/BotaoDeDivisao"/>-->
+<!--            <TextView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginLeft="14dp"-->
+<!--                android:text="@string/ResultadoDivisao"/>-->
+<!--        </LinearLayout>-->
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_gravity="center"-->
+<!--            android:layout_marginTop="50dp"-->
+<!--            android:gravity="center"-->
+<!--            android:orientation="horizontal">-->
+
+<!--            <EditText-->
+<!--                android:id="@+id/textViewNumero5"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text=""-->
+<!--                tools:layout_editor_absoluteX="140dp"-->
+<!--                tools:layout_editor_absoluteY="19dp" />-->
+
+<!--            <TextView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginLeft="14dp"-->
+<!--                android:text="@string/SinaldeMais"/>-->
+<!--            <EditText-->
+<!--                android:id="@+id/textViewNumero6"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text=""-->
+<!--                tools:layout_editor_absoluteX="140dp"-->
+<!--                tools:layout_editor_absoluteY="19dp" />-->
+<!--            <Button-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="@string/BotaoMais"/>-->
+<!--            <TextView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginLeft="14dp"-->
+<!--                android:text="@string/ResultadoMais"/>-->
+<!--        </LinearLayout>-->
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_gravity="center"-->
+<!--            android:layout_marginTop="50dp"-->
+<!--            android:gravity="center"-->
+<!--            android:orientation="horizontal">-->
+
+<!--            <EditText-->
+<!--                android:id="@+id/textViewNumero7"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text=""-->
+<!--                tools:layout_editor_absoluteX="140dp"-->
+<!--                tools:layout_editor_absoluteY="19dp" />-->
+
+<!--            <TextView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginLeft="14dp"-->
+<!--                android:text="@string/Menos"/>-->
+<!--            <EditText-->
+<!--                android:id="@+id/textViewNumero8"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text=""-->
+<!--                tools:layout_editor_absoluteX="140dp"-->
+<!--                tools:layout_editor_absoluteY="19dp" />-->
+<!--            <Button-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="@string/BotaoMenos"/>-->
+<!--            <TextView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginLeft="14dp"-->
+<!--                android:text="@string/ResultadoMenos"/>-->
+<!--        </LinearLayout>-->
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

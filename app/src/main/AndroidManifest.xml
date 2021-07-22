@@ -10,8 +10,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ChicleteComBanana"
         android:windowSoftInputMode="adjustPan">
-        <activity android:name=".Eleicao"></activity>
-        <activity android:name=".MostrandoIdaeEDias" />
+        <activity android:name=".Calculadora"></activity>
+        <activity android:name=".ContasBasicasECalculadora" />
+        <activity android:name=".Eleicao" />
+        <activity android:name=".ActivityIdadeDiasMesesAnos" />
         <activity
             android:name=".DestinguirParOuImpar"
             android:windowSoftInputMode="adjustPan" />

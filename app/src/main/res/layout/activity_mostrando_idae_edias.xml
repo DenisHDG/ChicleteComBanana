@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MostrandoIdaeEDias">
+    tools:context=".ActivityIdadeDiasMesesAnos">
 
     <LinearLayout
         android:layout_width="wrap_content"
@@ -37,7 +37,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Insira sua data de nascimento ex 00/00/0000:          "
+            android:text="@string/insira_sua_data_de_nascimento_ex_00_00_0000"
             tools:ignore="MissingConstraints"
             tools:layout_editor_absoluteX="175dp"
             tools:layout_editor_absoluteY="372dp" />
@@ -63,13 +63,13 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Sua idade é:          "
+                android:text="@string/sua_idade"
                 tools:ignore="MissingConstraints"
                 tools:layout_editor_absoluteX="175dp"
                 tools:layout_editor_absoluteY="372dp" />
 
             <TextView
-                android:id="@+id/textViewResultado1"
+                android:id="@+id/textViewResultadoIdade"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/idade"
@@ -82,7 +82,35 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="100dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/quantos_meses_voc_viveu"
+                tools:ignore="DuplicateIds,MissingConstraints"
+                tools:layout_editor_absoluteX="56dp"
+                tools:layout_editor_absoluteY="487dp" />
+
+            <TextView
+                android:id="@+id/textViewResultadoM"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/meses"
+                android:textSize="30sp"
+                tools:ignore="DuplicateIds,MissingConstrainsts,MissingConstraints"
+                tools:layout_editor_absoluteX="252dp"
+                tools:layout_editor_absoluteY="466dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
             android:layout_marginBottom="20dp"
             android:gravity="center"
             android:orientation="horizontal">
@@ -90,22 +118,107 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Você viveu exatamte:       "
+                android:text="@string/voc_viveu_exatamente"
                 tools:ignore="MissingConstraints"
-                tools:layout_editor_absoluteX="175dp"
-                tools:layout_editor_absoluteY="372dp" />
+                tools:layout_editor_absoluteX="81dp"
+                tools:layout_editor_absoluteY="481dp" />
 
             <TextView
-                android:id="@+id/textViewRsesultado2"
+                android:id="@+id/textViewResultadoDias"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/dias"
                 android:textSize="30sp"
                 tools:ignore="MissingConstraints"
-                tools:layout_editor_absoluteX="177dp"
+                tools:layout_editor_absoluteX="265dp"
                 tools:layout_editor_absoluteY="460dp" />
 
         </LinearLayout>
-    </LinearLayout>
 
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            tools:ignore="MissingConstraints">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/quantas_horas_voc_viveu"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="70dp"
+                tools:layout_editor_absoluteY="544dp" />
+
+            <TextView
+                android:id="@+id/textViewResultadoH"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/horas"
+                android:textSize="30sp"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="252dp"
+                tools:layout_editor_absoluteY="523dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            tools:ignore="MissingConstraints">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/quantos_minutos_voc_viveu"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="70dp"
+                tools:layout_editor_absoluteY="618dp" />
+
+            <TextView
+                android:id="@+id/textViewResultadoMin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/minutos"
+                android:textSize="25sp"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="252dp"
+                tools:layout_editor_absoluteY="603dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            tools:ignore="MissingConstraints">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/quantos_segundos_voc_viveu"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="37dp"
+                tools:layout_editor_absoluteY="673dp" />
+
+            <TextView
+                android:id="@+id/textViewResultadoS"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/segundos"
+                android:textSize="25sp"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="245dp"
+                tools:layout_editor_absoluteY="673dp" />
+
+        </LinearLayout>
+    </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

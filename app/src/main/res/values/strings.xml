@@ -21,6 +21,36 @@
     <string name="data">Data</string>
     <string name="idade_dias">idade_dias</string>
     <string name="par_ou_impar">Par ou impar</string>
+    <string name="meses">Meses</string>
+    <string name="horas">Horas</string>
+    <string name="minutos">Minutos</string>
+    <string name="quantos_meses_j_viveu">Quantos meses já viveu:</string>
+    <string name="voc_viveu_exatamente">Você viveu exatamente:</string>
+    <string name="sua_idade">Sua idade é:</string>
+    <string name="insira_sua_data_de_nascimento_ex_00_00_0000">Insira sua data de nascimento ex 00/00/0000:</string>
+    <string name="segundos">Segundos</string>
+    <string name="quantos_meses_voc_viveu">Quantos meses você viveu:</string>
+    <string name="quantas_horas_voc_viveu">Quantas horas você viveu</string>
+    <string name="quantos_minutos_voc_viveu">Quantos minutos você viveu:</string>
+    <string name="quantos_segundos_voc_viveu">Quantos segundos você viveu:</string>
+    <string name="contas_b_sicas_e_calculadora">Contas básicas e calculadora</string>
+    <string name="Dvivisao">%</string>
+    <string name="BotaoMenos">=</string>
+    <string name="ResultadoMenos">Resultado</string>
+    <string name="Menos">-</string>
+    <string name="ResultadoMais">Resultado</string>
+    <string name="BotaoMais">=</string>
+    <string name="SinaldeMais">+</string>
+    <string name="ResultadoDivisao">Resultado</string>
+    <string name="PontoDivisao">=</string>
+    <string name="SinalDeDivisao">=</string>
+    <string name="ResultadoDeDivisao">Resultado</string>
+    <string name="BotaoVezes">=</string>
+    <string name="BotaoDeDivisao">=</string>
+    <string name="SinalDeVezes">X</string>
+    <string name="contas_b_sicas">Contas básicas</string>
+    <string name="ResultadoDeVezes">Resultado</string>
+    <string name="elei_o">Eleição</string>
 
 
 </resources>
