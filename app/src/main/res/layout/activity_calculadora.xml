@@ -4,15 +4,122 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:textAlignment="center"
     tools:context=".Calculadora">
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="25dp"
-        android:layout_marginEnd="30dp"
-        tools:ignore="MissingConstraints" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center|top"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/descricaocalculadora"
+            android:textSize="60sp"
+            tools:ignore="MissingConstraints" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="100"
+            android:inputType="textPersonName"
+            android:text="_"
+            tools:ignore="MissingConstraints" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                android:text="@string/Numero1DaCalculadora"
+                android:textSize="20sp"
+                tools:ignore="MissingConstraints" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                android:text="2"
+                android:textSize="20sp"
+                tools:ignore="MissingConstraints" />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                android:text="3"
+                android:textSize="20sp"
+                tools:ignore="MissingConstraints" />
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                android:text="4"
+                android:textSize="20sp"
+                tools:ignore="MissingConstraints" />
+        </LinearLayout>
+            <Button
+                android:id="@+id/buttonMais"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/MaisSinal"
+                android:layout_marginTop="20dp"
+                android:textSize="20sp"
+                tools:ignore="MissingConstraints" />
+            <Button
+                android:id="@+id/buttonIgual"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/SinalDeIgual"
+                android:layout_marginTop="20dp"
+                android:textSize="50sp"
+                tools:ignore="MissingConstraints" />
+        <!--    <Button-->
+        <!--        android:id="@+id/button3"-->
+        <!--        android:layout_width="wrap_content"-->
+        <!--        android:layout_height="wrap_content"-->
+        <!--        android:text="@string/Numero3DaCalculadora"-->
+        <!--        android:textSize="20sp"-->
+        <!--        tools:ignore="MissingConstraints" />-->
+
+        <!--    <Button-->
+        <!--        android:id="@+id/button4"-->
+        <!--        android:layout_width="wrap_content"-->
+        <!--        android:layout_height="wrap_content"-->
+        <!--        android:text="@string/Numero4DaCalculadora"-->
+        <!--        android:textSize="20sp"-->
+        <!--        tools:ignore="MissingConstraints" />-->
+        <!--    -->
 
 
 
 
+
+    </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+
+
+

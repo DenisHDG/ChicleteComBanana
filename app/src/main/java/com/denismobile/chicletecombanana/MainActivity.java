@@ -16,14 +16,14 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         Button button_troca_de_chiclete = findViewById(R.id.button_troca_de_chiclete);
-        button_troca_de_chiclete.setOnClickListener(view ->{
+        button_troca_de_chiclete.setOnClickListener(view -> {
             Intent i = new Intent(MainActivity.this,
                     TrocaDeChiclete.class);
             startActivity(i);
         });
 
 
-        Button button_par_ou_impar= findViewById(R.id.button_par_ou_impar);
+        Button button_par_ou_impar = findViewById(R.id.button_par_ou_impar);
         button_par_ou_impar.setOnClickListener(view -> {
             Intent i = new Intent(MainActivity.this,
                     DestinguirParOuImpar.class);
@@ -48,6 +48,14 @@ public class MainActivity extends AppCompatActivity {
             Intent i = new Intent(MainActivity.this,
                     ContasBasicasECalculadora.class);
             startActivity(i);
+        });
+
+        Button buttoCalculadora = findViewById(R.id.buttoCalculadora);
+        buttoCalculadora.setOnClickListener(view -> {
+            Intent i = new Intent(MainActivity.this,
+                    Calculadora.class);
+            startActivity(i);
+
         });
 
     }

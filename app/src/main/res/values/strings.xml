@@ -51,6 +51,16 @@
     <string name="contas_b_sicas">Contas básicas</string>
     <string name="ResultadoDeVezes">Resultado</string>
     <string name="elei_o">Eleição</string>
+    <string name="calculadora">Calculadora</string>
+    <string name="contas">Contas</string>
+    <string name="botaocalculadora__">Calculadora</string>
+    <string name="descricaocalculadora">Calculadora</string>
+    <string name="Numero3DaCalculadora">3</string>
+    <string name="Numero1DaCalculadora">1</string>
+    <string name="Numero4DaCalculadora">4</string>
+    <string name="Numero2DaCalculadora">2</string>
+    <string name="SinalDeIgual">=</string>
+    <string name="MaisSinal">+</string>
 
 
 </resources>

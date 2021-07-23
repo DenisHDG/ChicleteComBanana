@@ -67,13 +67,24 @@
             android:text="@string/elei_o" />
 
         <Button
+            android:id="@+id/button_calcular"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="40dp"
             android:background="@drawable/botaodascontas"
             android:textColor="@color/black"
             android:textSize="20sp"
-            android:text="Contas" />
+            android:text="@string/contas" />
+
+        <Button
+            android:id="@+id/buttoCalculadora"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/botao_calculadora"
+            android:textColor="@color/black"
+            android:text="@string/botaocalculadora__"
+            android:textSize="20sp" />
 
 
 
